@@ -1,0 +1,6 @@
+framework module Pods_StarHero {
+  umbrella header "Pods-StarHero-umbrella.h"
+
+  export *
+  module * { export * }
+}

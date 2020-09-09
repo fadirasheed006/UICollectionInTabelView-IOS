@@ -3,25 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8D4CE55924F132F800101029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CE55824F132F800101029 /* AppDelegate.swift */; };
-		8D4CE55B24F132F800101029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CE55A24F132F800101029 /* ViewController.swift */; };
+		8D4CE55B24F132F800101029 /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CE55A24F132F800101029 /* SelectPersonVC.swift */; };
 		8D4CE55E24F132F800101029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CE55C24F132F800101029 /* Main.storyboard */; };
 		8D4CE56024F132FB00101029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CE55F24F132FB00101029 /* Assets.xcassets */; };
 		8D4CE56324F132FB00101029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CE56124F132FB00101029 /* LaunchScreen.storyboard */; };
+		8D4CE56D24F1357800101029 /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CE56A24F1357700101029 /* Starjhol.ttf */; };
+		8D4CE56E24F1357800101029 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CE56B24F1357700101029 /* Starjedi.ttf */; };
+		8D4CE56F24F1357800101029 /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4CE56C24F1357800101029 /* Starjout.ttf */; };
+		8D79682224F23CEC0026F6FD /* BlackViewBg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79682124F23CEC0026F6FD /* BlackViewBg.swift */; };
+		8D79682524F23D7B0026F6FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79682424F23D7B0026F6FD /* Constants.swift */; };
+		8D79682824F243F10026F6FD /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D79682724F243F10026F6FD /* PersonApi.swift */; };
+		8DAE765024F274DF005D8519 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE764F24F274DF005D8519 /* Person.swift */; };
+		AC816AFB48363C364DE6F78C /* Pods_StarHero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205CFE814968B1241E24031E /* Pods_StarHero.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17D050D533969F029A9283E8 /* Pods-StarHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarHero.release.xcconfig"; path = "Target Support Files/Pods-StarHero/Pods-StarHero.release.xcconfig"; sourceTree = "<group>"; };
+		205CFE814968B1241E24031E /* Pods_StarHero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarHero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9695618CF2F12838C54160 /* Pods-StarHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarHero.debug.xcconfig"; path = "Target Support Files/Pods-StarHero/Pods-StarHero.debug.xcconfig"; sourceTree = "<group>"; };
 		8D4CE55524F132F800101029 /* StarHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4CE55824F132F800101029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D4CE55A24F132F800101029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D4CE55A24F132F800101029 /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
 		8D4CE55D24F132F800101029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D4CE55F24F132FB00101029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4CE56224F132FB00101029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4CE56424F132FB00101029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4CE56A24F1357700101029 /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		8D4CE56B24F1357700101029 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		8D4CE56C24F1357800101029 /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		8D79682124F23CEC0026F6FD /* BlackViewBg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackViewBg.swift; sourceTree = "<group>"; };
+		8D79682424F23D7B0026F6FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8D79682724F243F10026F6FD /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		8DAE764F24F274DF005D8519 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC816AFB48363C364DE6F78C /* Pods_StarHero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89BB4C7569AF935900A20896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C9695618CF2F12838C54160 /* Pods-StarHero.debug.xcconfig */,
+				17D050D533969F029A9283E8 /* Pods-StarHero.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8D4CE54C24F132F700101029 = {
 			isa = PBXGroup;
 			children = (
 				8D4CE55724F132F800101029 /* StarHero */,
 				8D4CE55624F132F800101029 /* Products */,
+				89BB4C7569AF935900A20896 /* Pods */,
+				B64562385D5AF27AC7B3DC8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,85 @@
 		8D4CE55724F132F800101029 /* StarHero */ = {
 			isa = PBXGroup;
 			children = (
+				8D79682624F243D70026F6FD /* Services */,
+				8D79682324F23D600026F6FD /* Utils */,
+				8D79681E24F231020026F6FD /* Model */,
+				8D79681F24F2310A0026F6FD /* View */,
+				8D79682024F231190026F6FD /* Controller */,
+				8D79681D24F230F00026F6FD /* Resources */,
 				8D4CE55824F132F800101029 /* AppDelegate.swift */,
-				8D4CE55A24F132F800101029 /* ViewController.swift */,
 				8D4CE55C24F132F800101029 /* Main.storyboard */,
 				8D4CE55F24F132FB00101029 /* Assets.xcassets */,
 				8D4CE56124F132FB00101029 /* LaunchScreen.storyboard */,
 				8D4CE56424F132FB00101029 /* Info.plist */,
 			);
 			path = StarHero;
+			sourceTree = "<group>";
+		};
+		8D79681C24F230E00026F6FD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8D4CE56B24F1357700101029 /* Starjedi.ttf */,
+				8D4CE56A24F1357700101029 /* Starjhol.ttf */,
+				8D4CE56C24F1357800101029 /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8D79681D24F230F00026F6FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D79681C24F230E00026F6FD /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8D79681E24F231020026F6FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DAE764F24F274DF005D8519 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D79681F24F2310A0026F6FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D79682124F23CEC0026F6FD /* BlackViewBg.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D79682024F231190026F6FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D4CE55A24F132F800101029 /* SelectPersonVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D79682324F23D600026F6FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D79682424F23D7B0026F6FD /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8D79682624F243D70026F6FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D79682724F243F10026F6FD /* PersonApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B64562385D5AF27AC7B3DC8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				205CFE814968B1241E24031E /* Pods_StarHero.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D4CE56724F132FB00101029 /* Build configuration list for PBXNativeTarget "StarHero" */;
 			buildPhases = (
+				62A9D4F0D265839B4DFBC05B /* [CP] Check Pods Manifest.lock */,
 				8D4CE55124F132F700101029 /* Sources */,
 				8D4CE55224F132F700101029 /* Frameworks */,
 				8D4CE55324F132F700101029 /* Resources */,
+				E156554A009951F37D605C67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +229,67 @@
 				8D4CE56324F132FB00101029 /* LaunchScreen.storyboard in Resources */,
 				8D4CE56024F132FB00101029 /* Assets.xcassets in Resources */,
 				8D4CE55E24F132F800101029 /* Main.storyboard in Resources */,
+				8D4CE56E24F1357800101029 /* Starjedi.ttf in Resources */,
+				8D4CE56F24F1357800101029 /* Starjout.ttf in Resources */,
+				8D4CE56D24F1357800101029 /* Starjhol.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62A9D4F0D265839B4DFBC05B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarHero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E156554A009951F37D605C67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarHero/Pods-StarHero-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarHero/Pods-StarHero-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarHero/Pods-StarHero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D4CE55124F132F700101029 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4CE55B24F132F800101029 /* ViewController.swift in Sources */,
+				8DAE765024F274DF005D8519 /* Person.swift in Sources */,
+				8D4CE55B24F132F800101029 /* SelectPersonVC.swift in Sources */,
+				8D79682224F23CEC0026F6FD /* BlackViewBg.swift in Sources */,
 				8D4CE55924F132F800101029 /* AppDelegate.swift in Sources */,
+				8D79682824F243F10026F6FD /* PersonApi.swift in Sources */,
+				8D79682524F23D7B0026F6FD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +433,7 @@
 		};
 		8D4CE56824F132FB00101029 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9695618CF2F12838C54160 /* Pods-StarHero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +451,7 @@
 		};
 		8D4CE56924F132FB00101029 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D050D533969F029A9283E8 /* Pods-StarHero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
